@@ -1,13 +1,11 @@
-﻿// Пользователь вводит с клавиатуры M чисел. 
-// Посчитайте, сколько чисел больше 0 ввёл пользователь.
-
+﻿// Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
 
 void PositiveNumbers ()
 {
     string a = String.Empty;
     int num;
     int sum = 0; 
-    while (!(a == "N"))
+    while (a != "N")
     {
         Console.WriteLine
         ("Input number or input N if you wont to finish");
